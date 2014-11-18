@@ -14,3 +14,20 @@ public void onPlayerDamage(EntityDamageByEntityEvent event){
     // Code
   }
 }
+
+public class Stun{
+  private int time;
+  private Stun instance = new Stun(){};
+  
+  public Stun(int time){
+    this.time = time;
+  }
+  
+  public Stun getInstance(){
+    return instance;
+  }
+  
+  public int getTime(){
+    return time;
+  }
+}
