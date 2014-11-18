@@ -30,4 +30,5 @@ public class Stun{
   public int getTime(){
     return time;
   }
+  
 }
