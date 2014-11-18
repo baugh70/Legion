@@ -32,3 +32,50 @@ public class Stun{
   }
   
 }
+
+public class Frozen{
+  private int time;
+  private Frozen instance = new Frozen(){};
+  
+  public Frozen(int time){
+    this.time = time;
+  }
+  
+  public Frozen getInstance(){
+    return insance;
+  }
+}
+
+public class Confused{
+  private Confused instance;
+  private int time;
+  
+  public Confused(int time){
+    this.time = time;
+  }
+  
+  public int getTime(){
+    return time;
+  }
+  
+  public Confused getInstance(){
+    return instance;
+  }
+}
+
+public class Slow{
+  private int time;
+  private Slow instance = new Slow(){};
+  
+  public Slow(int time){
+    this.time = time;
+  }
+  
+  public int getTime(){
+    return time;
+  }
+  
+  public Slow getInstance(){
+    return instance;
+  }
+}
