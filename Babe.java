@@ -1,3 +1,5 @@
+private HashMap<Player, Boolean> canShoot;
+
 public boolean getAllowed(){
 
 }
